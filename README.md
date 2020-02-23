@@ -3,11 +3,12 @@
 You are welcome to file issues either for bugs in the source code, feature requests!
 
 
-## Brief Guide
-Requirement:
+# Requirement:
+
 conda,
 MXNet, >=1.4
 Caffe,
+
 
 Step1: Given a MXNet Model, MXNet2Caffe can automatically generate both `.prototxt` and `.caffemodel`.
 
