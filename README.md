@@ -4,14 +4,21 @@ You are welcome to file issues either for bugs in the source code, feature reque
 
 
 ## Brief Guide
+Requirement:
+conda,
+MXNet, >=1.4
+Caffe,
 
-Given a MXNet Model, MXNet2Caffe can automatically generate both `.prototxt` and `.caffemodel`.
+Step1: Given a MXNet Model, MXNet2Caffe can automatically generate both `.prototxt` and `.caffemodel`.
 
-Before starting using MXNet2Caffe, you need to manually set the path in `find_caffe.py` and `find_mxnet.py`.
+Step2: 
+   1) config json2prototxt, open it and change TODO
+   2) prototxt_basic.py   , open it and change TODO
+#Before starting using MXNet2Caffe, you need to manually set the path in `find_caffe.py` and `find_mxnet.py`.
 
-After that, simply run `python json2prototxt.py` to generate the corresponding `.prototxt`.
+Step3: `python json2prototxt.py` to generate the corresponding `.prototxt`.
 
-And then, using `python mxnet2caffe.py` to generate the corresponding `.caffemodel`.
+Step4: `python mxnet2caffe.py` to generate the corresponding `.caffemodel`.
 
 
 ## TODO
